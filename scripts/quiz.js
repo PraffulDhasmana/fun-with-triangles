@@ -2,7 +2,18 @@ const quizForm = document.querySelector('.quiz-form');
 const submitBtn = document.querySelector('#submit-btn');
 const outputE1 = document.querySelector('#output');
 
-const correctAnswers = ["90°","Right Angle"];
+const correctAnswers = [
+    "90°",
+    "Right Angled",
+    "one right angle",
+    "12, 16, 20",
+    "Equilateral triangle",
+    "100°",
+    "30°",
+    "a + b + c",
+    "no",
+    "45°",
+  ];
 
 function calScore(){
 
