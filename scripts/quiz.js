@@ -22,6 +22,7 @@ let index = 0;
 
 const formDataExtract = new FormData(quizForm);
 
+
 for(let value of formDataExtract.values()){
 
     if(value === correctAnswers[index]){
