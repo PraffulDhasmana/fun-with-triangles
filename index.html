@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
     <title>Triangle Quiz</title>
 </head>
 
 <body>
     <header>
-        <h1>fun with triangles</h1>
-        <nav>
-          <a href="./pages/istriangle.html">Is Triangle?</a>
-          <a href="/">Quiz</a>
-          <a href="./pages/checkhypotenuse.html">Hypotenuse</a>
-          <a href="./pages/areaoftriangle.html">Area of Triangle</a>
+        <nav class="navigation container">
+            <div class="nav-brand"><text><</text> Prafful Dhasmana <text>/></text> 💻 </div>
+    
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link " href="https://praffuldhasmana.netlify.app">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link " href="https://praffuldhasmana.netlify.app/projects.html"> Projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://praffuldhasmana.netlify.app/blogs.html">Blogs</a>
+                </li>
+            </ul>
         </nav>
+        <h1 class="for-center">Fun with Triangles 📐</h1>
+      
+        <nav class="for-center " >
+          <a class="link " href="./pages/istriangle.html">Is Triangle?</a>
+          <a class="link bold-font" href="/">Quiz</a>
+          <a class="link " href="./pages/checkhypotenuse.html">Hypotenuse</a>
+          
+        </nav>
+    
       </header>
 
-    <h1>Triangle Quiz</h1>
+    <h1 class="for-center" >Triangle Quiz</h1>
 
-    <form class="quiz-form">
+    <form class="quiz-form for-center">
 
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
@@ -144,15 +165,33 @@
                 45°
             </label>
         </div>
-
+        
     </form>
 
+   <div class="button-style">
     <button id="submit-btn">Submit</button>
-
-    <div id="output"></div>
+   </div>
+    
+    <div class="for-center button-style" id="output"></div>
 
     <Script src="./scripts/quiz.js"></Script>
 
+    <footer class="footer">
+        <div class="footer-header">Connect Wih Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link"  href="https://github.com/PraffulDhasmana">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/praffulmana/
+                ">LinkedIN</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/praffuldhasmana">Twitter</a>
+            </li>
+        </ul>
+    </footer>
+    
 </body>
 
 </html>
